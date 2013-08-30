@@ -1,0 +1,19 @@
+html, body {
+	margin:0px;
+	padding:0px;
+}
+#mist {
+	position:absolute;
+	z-index:1;
+}
+#mirror {
+	position:absolute;
+	z-index:3;
+	-webkit-filter:invert(100%) brightness(50%) invert(100%) blur(10px);
+	-webkit-transform: scaleX(-1);
+}
+#video {
+	position:absolute;
+	z-index:2;
+	-webkit-transform: scaleX(-1);
+}
