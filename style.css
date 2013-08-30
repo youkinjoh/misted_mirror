@@ -4,16 +4,22 @@ html, body {
 }
 #mist {
 	position:absolute;
+	top:0px;
+	left:0px;
 	z-index:1;
 }
 #mirror {
 	position:absolute;
+	top:0px;
+	left:0px;
 	z-index:3;
 	-webkit-filter:invert(100%) brightness(50%) invert(100%) blur(10px);
 	-webkit-transform: scaleX(-1);
 }
 #video {
 	position:absolute;
+	top:0px;
+	left:0px;
 	z-index:2;
 	-webkit-transform: scaleX(-1);
 }
